@@ -52,4 +52,4 @@ function playGame() {
     if(humanScore === computerScore) console.log("It's a tie!");
 }
 
-playGame();
+//playGame();
