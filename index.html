@@ -9,27 +9,35 @@
 </head>
 <body>
     <div id="container">
-        <h2>Rock Paper Scissor</h2>
-        <div id="players">
-            <div id="user">
-                <h3>User</h3>
-                <p>Select Your Choice: </p>
-                <div class="btns">
-                    <div class="rock"><img src="rock.jpg" alt="Rock"></div>
-                    <div class="paper"><img src="paper.jpg" alt="Paper"></div>
-                    <div class="scissor"><img src="scissor.jpg" alt="Scissor"></div>
+        <div id="game-window">
+            <h2>Rock Paper Scissor</h2>
+            <div id="players">
+                <div id="user">
+                    <h3>User</h3>
+                    <p>Select Your Choice: </p>
+                    <div class="btns">
+                        <div class="rock"><img src="rock.jpg" alt="Rock"></div>
+                        <div class="paper"><img src="paper.jpg" alt="Paper"></div>
+                        <div class="scissor"><img src="scissor.jpg" alt="Scissor"></div>
+                    </div>
+                </div>
+                <div id="vs"><img src="vs.png" alt="Versus"></div>
+                <div id="comp">
+                    <h3>Computer</h3>
+                    <p>Computer's Choice: </p>
+                    <div id="comp-choice"><img src="dot.png" alt="Choosing"></div>
                 </div>
             </div>
-            <div id="vs"><img src="vs.png" alt="Versus"></div>
-            <div id="comp">
-                <h3>Computer</h3>
-                <p>Computer's Choice: </p>
-                <div id="comp-choice"><img src="dot.png" alt="Choosing"></div>
+            <div id="score">
+                <div id="user-score"><h4>Your score: <span>0</span></h4></div>
+                <div id="comp-score"><h4>Computer's score: <span>0</span></h4></div>
             </div>
         </div>
-        <div id="score">
-            <div id="user-score"><h4>Your score: <span>0</span></h4></div>
-            <div id="comp-score"><h4>Computer's score: <span>0</span></h4></div>
+
+        <div id="winner-pop-up">
+            <h1></h1>
+            <p></p>
+            <button>Restart</button>
         </div>
     </div>
 </body>
